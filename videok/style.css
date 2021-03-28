@@ -1,0 +1,20 @@
+
+.videok {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* ettől lesz reszponzív */
+    max-width: 600px; /* ez azért, hogy egy sorba max 3 doboz férjen */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-doboz {
+    width: 150px;
+    height: 150px;
+    background: grey;
+    margin: 10px;
+  }
+  
